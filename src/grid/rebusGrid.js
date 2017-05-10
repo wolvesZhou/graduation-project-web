@@ -1,8 +1,6 @@
-/**
- * Created by zhuqizhong on 16-5-8.
- */
+
 import QzGrid from './QzGrid'
-//import Rebus from '../core/Rebus'
+
 import React from 'react'
 export default class extends QzGrid{
   /*  propTypes: {

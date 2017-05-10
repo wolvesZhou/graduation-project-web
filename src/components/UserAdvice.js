@@ -14,7 +14,7 @@ export default class extends React.Component {
         this.state = {
             messageList: []
         };
-        // this.getData();
+
     }
 
     componentDidMount(){

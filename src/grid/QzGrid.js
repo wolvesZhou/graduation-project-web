@@ -1,10 +1,7 @@
-/**
- * Created by zhuqizhong on 16-5-2.
- */
+
 import React from 'react';
 import { WindowResizeListener } from 'react-window-resize-listener'
-// var _= require('underscore');
-// var CONST =require( '../core/constValues');
+
 class QzGrid extends React.Component {
     constructor(props){
         super(props);

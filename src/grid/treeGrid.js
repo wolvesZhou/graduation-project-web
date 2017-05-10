@@ -1,6 +1,4 @@
-/**
- * Created by zhuqizhong on 16-5-2.
- */
+
 import React from 'react';
 import QzGrid from './QzGrid'
 

@@ -1,5 +1,5 @@
 /**
- * Created by Administrator on 2017/1/17.
+ * Created by zwf on 17-4-9.
  */
 
 
@@ -15,7 +15,6 @@ export default class extends React.Component {
         this.state = {
             messageList: []
         };
-        // this.getData();
     }
 
     componentDidMount(){
@@ -34,7 +33,7 @@ export default class extends React.Component {
             that.refs.manageGridRef.updateNavButton('edit', false);
             that.refs.manageGridRef.updateNavButton('del', false);
 
-            //return [true,'']
+
 
         }
 

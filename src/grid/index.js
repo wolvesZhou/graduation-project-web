@@ -1,22 +1,8 @@
-/**
- * Created by zhuqizhong on 16-5-4.
- */
+
 import QzGrid from './QzGrid'
 import TreeGrid from './treeGrid'
 import RebusGrid from './rebusGrid'
-// var _ = require('underscore');
-/**
- * 创建一个masterDetail的连接，detail的props事件
- * @param mEle
- * @param mEleProps
- * @param details 子表信息，是一个数组，每一项包括以下的内容
- *  .element  子表的Element对象，为QzGrid或是TreeGrid
- *  .props    子表的属性定义
- *  .detailParam 子表的查询连接方式定义,是一个函数，参数为(rowid,selected)，用于生成setGridParam的参数
- *      如果没有，默认生成{url: rowid+".json",datatype: 'json'}
- *  .detailCaption   子表的caption定义，一个函数,参数为(rowid,selected,rowData)，用于生成caption，如果没有，默认是rowid
- * @constructor
- */
+
 function BuildMasterDetail(mEle, mEleProps, details) {
     //bindDetail
     var masterElement = mEle;
